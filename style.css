@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000;
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +677,15 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+}
+
+p.citation{
+    font-size: 19px;
+    font-weight: bold;
+}
+p.citation span{
+    font-weight: normal;
 }
 
 .tight-width-whitespace {
@@ -739,6 +747,11 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black{
+    color: #000!important;
+    font-weight: bold;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -775,12 +788,18 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgba(255, 255, 255, 1)!important;
 }
+
+.no-transparent{
+    color: rgba(255, 255, 255, 1)!important;
+    font-weight: bold;
+}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
