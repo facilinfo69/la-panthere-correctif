@@ -715,7 +715,7 @@ p.citation span{
 
 .social {
     padding: 10px;
-    margin: auto 10 auto 10;
+    margin: auto;
     display: flex;
     justify-content: space-around;
 }
